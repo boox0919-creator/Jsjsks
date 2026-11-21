@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Human Atlas</string>
+    <string name="app_subtitle">3D Offline Anatomy</string>
+
+    <!-- Navigation -->
+    <string name="nav_viewer">3D Atlas</string>
+    <string name="nav_library">Study Library</string>
+
+    <!-- Top bar actions -->
+    <string name="action_reset_camera">Reset camera</string>
+    <string name="action_toggle_theme">Switch theme</string>
+    <string name="action_toggle_language">Switch language</string>
+    <string name="action_attribution">Licenses &amp; Attribution</string>
+    <string name="action_close">Close</string>
+
+    <!-- Selection pill & study sheet -->
+    <string name="selected_structure_label">Selected Structure</string>
+    <string name="action_open_notes">Study Notes</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_bookmarked">Bookmarked</string>
+    <string name="action_remove_bookmark">Remove bookmark</string>
+    <string name="action_focus_in_3d">Focus in 3D</string>
+    <string name="action_save_note">Save Study Note</string>
+    <string name="action_delete_entry">Delete</string>
+    <string name="note_input_label">Personal Study Notes</string>
+    <string name="note_input_placeholder">Add origins, insertions, innervation, clinical pearls, or exam reminders…</string>
+    <string name="note_saved_badge">Note saved</string>
+    <string name="atlas_id_label">Atlas ID</string>
+    <string name="system_label">System</string>
+    <string name="snackbar_note_saved">Study note saved offline</string>
+    <string name="snackbar_bookmark_added">Structure bookmarked</string>
+    <string name="snackbar_bookmark_removed">Bookmark removed</string>
+    <string name="snackbar_entry_deleted">Study entry deleted</string>
+
+    <!-- Library screen -->
+    <string name="library_title">Study Library</string>
+    <string name="library_search_placeholder">Search structures, IDs, or notes…</string>
+    <string name="library_clear_search">Clear search</string>
+    <string name="filter_all">All</string>
+    <string name="filter_bookmarks">Bookmarks</string>
+    <string name="filter_notes">Notes</string>
+    <string name="library_empty_title">No saved structures yet</string>
+    <string name="library_empty_body">Tap any organ, bone, vessel, or nerve in the 3D Atlas to bookmark it or write offline study notes.</string>
+    <string name="library_search_empty_title">No matching study entries</string>
+    <string name="library_search_empty_body">Try searching by anatomical name, FMA/part ID, or a keyword from your notes.</string>
+    <string name="library_tap_to_focus">Tap to focus in 3D</string>
+    <string name="library_entries_count">%1$d saved</string>
+
+    <!-- Anatomical Systems -->
+    <string name="sys_skeletal">Skeleton</string>
+    <string name="sys_muscular">Muscles</string>
+    <string name="sys_cardiac">Heart</string>
+    <string name="sys_sensory">Sensory Organs</string>
+    <string name="sys_arterial">Arteries</string>
+    <string name="sys_venous">Veins</string>
+    <string name="sys_nervous">Nervous System</string>
+    <string name="sys_respiratory">Respiratory</string>
+    <string name="sys_digestive">Digestive</string>
+    <string name="sys_urinary">Urinary</string>
+    <string name="sys_lymphatic">Lymphatic</string>
+    <string name="sys_endocrine">Endocrine</string>
+    <string name="sys_reproductive">Reproductive</string>
+    <string name="sys_integumentary">Body Surface</string>
+    <string name="sys_connective">Connective Tissue</string>
+    <string name="sys_unknown">Anatomy</string>
+
+    <!-- Attribution & Licensing Dialog -->
+    <string name="attribution_title">Licenses &amp; Attribution</string>
+    <string name="attribution_offline_badge">100% OFFLINE · ZERO NETWORK ACCESS</string>
+    <string name="attribution_bp3d_heading">BodyParts3D 4.0 (CC BY 4.0)</string>
+    <string name="attribution_bp3d_body">BodyParts3D, © The Database Center for Life Science (DBCLS), licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).\n\nSource geometry: isa_BP3D_4.0_obj_99.zip (BodyParts3D 4.0) with IS-A and PART-OF anatomical hierarchy tables (2,234 meshes and 3,432 named FMA concepts).\n\nPublication: Mitsuhashi et al. (2009), BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research, doi:10.1093/nar/gkn613.\n\nAdaptations: Axes converted from millimeters/Z-up to meters/Y-up, simplified via meshoptimizer (0.2% relative error limit), normals quantized to signed 16-bit, packed into binary chunks with curated system groupings and colors.\n\nDisclaimer: Represents an adult male reference anatomy for educational study only. Not a diagnostic or clinical tool.</string>
+    <string name="attribution_mit_heading">Human Atlas Software (MIT License)</string>
+    <string name="attribution_mit_body">MIT License\n\nCopyright (c) 2026 ashemag\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+
+    <!-- Missing offline assets fallback -->
+    <string name="atlas_loading_title">Loading 3D Atlas…</string>
+</resources>

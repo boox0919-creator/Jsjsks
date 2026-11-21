@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">أطلس الإنسان</string>
+    <string name="app_subtitle">تشريح ثلاثي الأبعاد دون اتصال</string>
+
+    <!-- Navigation -->
+    <string name="nav_viewer">الأطلس 3D</string>
+    <string name="nav_library">مكتبة الدراسة</string>
+
+    <!-- Top bar actions -->
+    <string name="action_reset_camera">إعادة ضبط الكاميرا</string>
+    <string name="action_toggle_theme">تبديل المظهر</string>
+    <string name="action_toggle_language">تبديل اللغة</string>
+    <string name="action_attribution">التراخيص والإسناد</string>
+    <string name="action_close">إغلاق</string>
+
+    <!-- Selection pill & study sheet -->
+    <string name="selected_structure_label">البنية المحددة</string>
+    <string name="action_open_notes">ملاحظات الدراسة</string>
+    <string name="action_bookmark">حفظ إشارة</string>
+    <string name="action_bookmarked">محفوظة</string>
+    <string name="action_remove_bookmark">إزالة الإشارة</string>
+    <string name="action_focus_in_3d">تركيز في 3D</string>
+    <string name="action_save_note">حفظ الملاحظة</string>
+    <string name="action_delete_entry">حذف</string>
+    <string name="note_input_label">ملاحظات الدراسة الشخصية</string>
+    <string name="note_input_placeholder">أضف المنشأ، المرتكز، التعصيب، التروية الدموية، أو ملاحظات الاختبار…</string>
+    <string name="note_saved_badge">ملاحظة محفوظة</string>
+    <string name="atlas_id_label">معرّف الأطلس</string>
+    <string name="system_label">الجهاز</string>
+    <string name="snackbar_note_saved">تم حفظ الملاحظة محلياً دون اتصال</string>
+    <string name="snackbar_bookmark_added">تمت إضافة البنية إلى المحفوظات</string>
+    <string name="snackbar_bookmark_removed">تمت إزالة الإشارة المرجعية</string>
+    <string name="snackbar_entry_deleted">تم حذف العنصر من المكتبة</string>
+
+    <!-- Library screen -->
+    <string name="library_title">مكتبة الدراسة</string>
+    <string name="library_search_placeholder">ابحث باسم البنية أو المعرّف أو الملاحظات…</string>
+    <string name="library_clear_search">مسح البحث</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_bookmarks">المحفوظات</string>
+    <string name="filter_notes">الملاحظات</string>
+    <string name="library_empty_title">لا توجد بنى محفوظة بعد</string>
+    <string name="library_empty_body">انقر على أي عضو أو عظم أو وعاء أو عصب في الأطلس ثلاثي الأبعاد لإضافة إشارة مرجعية أو تدوين ملاحظات دراسية.</string>
+    <string name="library_search_empty_title">لا توجد نتائج مطابقة</string>
+    <string name="library_search_empty_body">جرّب البحث بالاسم التشريحي أو معرّف الأطلس أو كلمة من ملاحظاتك.</string>
+    <string name="library_tap_to_focus">انقر للتركيز في 3D</string>
+    <string name="library_entries_count">%1$d عنصر محفوظ</string>
+
+    <!-- Anatomical Systems -->
+    <string name="sys_skeletal">الجهاز الهيكلي</string>
+    <string name="sys_muscular">الجهاز العضلي</string>
+    <string name="sys_cardiac">القلب</string>
+    <string name="sys_sensory">أعضاء الحس</string>
+    <string name="sys_arterial">الشرايين</string>
+    <string name="sys_venous">الأوردة</string>
+    <string name="sys_nervous">الجهاز العصبي</string>
+    <string name="sys_respiratory">الجهاز التنفسي</string>
+    <string name="sys_digestive">الجهاز الهضمي</string>
+    <string name="sys_urinary">الجهاز البولي</string>
+    <string name="sys_lymphatic">الجهاز اللمفاوي</string>
+    <string name="sys_endocrine">الغدد الصماء</string>
+    <string name="sys_reproductive">الجهاز التناسلي</string>
+    <string name="sys_integumentary">سطح الجسم</string>
+    <string name="sys_connective">النسيج الضام</string>
+    <string name="sys_unknown">التشريح</string>
+
+    <!-- Attribution & Licensing Dialog -->
+    <string name="attribution_title">التراخيص والإسناد</string>
+    <string name="attribution_offline_badge">عمل كامل دون اتصال · بدون إذن إنترنت</string>
+    <string name="attribution_bp3d_heading">بيانات BodyParts3D 4.0 (رخصة CC BY 4.0)</string>
+    <string name="attribution_bp3d_body">بيانات BodyParts3D، حقوق النشر © لمركز قواعد بيانات علوم الحياة (DBCLS)، مرخّصة بموجب رخصة المشاع الإبداعي نَسب المُصنَّف 4.0 الدولية (CC BY 4.0).\n\nالمصدر الهندسي: isa_BP3D_4.0_obj_99.zip (BodyParts3D 4.0) مع جداول التسلسل التشريحي IS-A وPART-OF (2,234 مجسماً و3,432 مفهوماً تشريحياً).\n\nالمرجع العلمي: Mitsuhashi et al. (2009), BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research, doi:10.1093/nar/gkn613.\n\nتنبيه: يمثّل هذا النموذج تشريحاً مرجعياً تعليمياً وليس أداة تشخيصية أو سريرية.</string>
+    <string name="attribution_mit_heading">برمجية Human Atlas (رخصة MIT)</string>
+    <string name="attribution_mit_body">MIT License\n\nCopyright (c) 2026 ashemag\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+
+    <string name="atlas_loading_title">جارٍ تحميل الأطلس ثلاثي الأبعاد…</string>
+</resources>
